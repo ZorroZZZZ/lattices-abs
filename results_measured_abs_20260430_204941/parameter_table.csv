@@ -1,0 +1,7 @@
+﻿scheme,citation_key,domain,q,n_poly,zq_dim,ell_q,signature_size,authority,sign_expr,verify_expr
+Luo et al. [32],luo2021abs,Zq,8380417,-,1024,23,O(ell),single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,Zq,8380417,-,1024,23,O(ell*poly(n)),single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,Zq,8380417,-,1024,23,O(ell),single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,Zq,8380417,-,1024,23,O(1),single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,Zq,8380417,-,1024,23,O(1),single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,Rq,8380417,256,1024,23,O(1),multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash

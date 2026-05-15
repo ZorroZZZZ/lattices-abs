@@ -1,0 +1,43 @@
+﻿scheme,citation_key,attrs,sign_ms,verify_ms,keygen_total_ms,keygen_wall_ms,domain,authority,sign_expr,verify_expr
+Luo et al. [32],luo2021abs,4,304.43165999999997,303.67208000000005,319.9075199999993,319.9075199999993,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,4,300.0506800000008,299.2911000000009,302.30416000000065,302.30416000000065,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,4,300.05242000000004,299.2822600000001,302.3905599999996,302.3905599999996,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,4,300.02926000000014,299.2696800000002,302.29791999999986,302.29791999999986,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,4,300.02926000000014,299.2696800000002,302.29791999999986,302.29791999999986,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,4,23.505419999999955,22.74584000000006,25.7740799999997,6.443519999999925,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,8,603.6912600000002,602.9316800000003,639.8150399999986,639.8150399999986,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,8,599.3165200000018,598.5569400000019,604.6083200000013,604.6083200000013,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,8,599.3120200000003,598.5418600000004,604.7811199999992,604.7811199999992,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,8,599.2888600000003,598.5292800000004,604.5958399999997,604.5958399999997,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,8,599.2888600000003,598.5292800000004,604.5958399999997,604.5958399999997,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,8,46.241180000000085,45.481600000000185,51.5481599999994,12.88703999999985,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,16,1202.210460000001,1201.450880000001,1279.6300799999972,1279.6300799999972,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,16,1197.848200000004,1197.088620000004,1209.2166400000026,1209.2166400000026,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,16,1197.831220000001,1197.061060000001,1209.5622399999984,1209.5622399999984,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,16,1197.808060000001,1197.048480000001,1209.1916799999995,1209.1916799999995,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,16,1197.808060000001,1197.048480000001,1209.1916799999995,1209.1916799999995,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,16,91.71270000000032,90.95312000000044,103.0963199999988,25.7740799999997,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,32,2399.248860000002,2398.489280000002,2559.2601599999944,2559.2601599999944,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,32,2394.911560000008,2394.1519800000083,2418.433280000005,2418.433280000005,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,32,2394.8696200000018,2394.099460000002,2419.1244799999968,2419.1244799999968,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,32,2394.846460000002,2394.086880000002,2418.383359999999,2418.383359999999,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,32,2394.846460000002,2394.086880000002,2418.383359999999,2418.383359999999,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,32,182.65574000000083,181.89616000000095,206.1926399999976,51.5481599999994,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,64,4793.325660000004,4792.566080000004,5118.520319999989,5118.520319999989,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,64,4789.038280000016,4788.278700000016,4836.86656000001,4836.86656000001,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,64,4788.946420000004,4788.176260000004,4838.2489599999935,4838.2489599999935,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,64,4788.923260000004,4788.163680000004,4836.766719999998,4836.766719999998,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,64,4788.923260000004,4788.163680000004,4836.766719999998,4836.766719999998,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,64,364.5418200000019,363.782240000002,412.3852799999952,103.0963199999988,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,128,9581.479260000007,9580.719680000007,10237.040639999977,10237.040639999977,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,128,9577.291720000034,9576.532140000034,9673.73312000002,9673.73312000002,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,128,9577.100020000009,9576.329860000009,9676.497919999987,9676.497919999987,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,128,9577.076860000008,9576.317280000008,9673.533439999996,9673.533439999996,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,128,9577.076860000008,9576.317280000008,9673.533439999996,9673.533439999996,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,128,728.3139800000039,727.554400000004,824.7705599999904,206.1926399999976,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash
+Luo et al. [32],luo2021abs,256,19157.786460000014,19157.026880000016,20474.081279999955,20474.081279999955,Zq,single,T_eval_Zq + T_proxy + T_sample + T_hash,T_eval_Zq + T_proxy + T_hash
+Luo et al. [35],luo2022unbounded,256,19153.798600000064,19153.039020000066,19347.46624000004,19347.46624000004,Zq,single,T_eval_Zq + N_attr*T_PRF + T_part + T_sample + T_hash,T_eval_Zq + N_attr*T_PRF + T_part + T_hash
+Liu et al. [39],liu2024revocable,256,19153.407220000016,19152.637060000015,19352.995839999974,19352.995839999974,Zq,single,T_eval_Zq + T_rev + T_sample + T_hash,T_eval_Zq + T_cmp + T_hash
+Kong et al. [40],kong2024flexible,256,19153.384060000015,19152.624480000017,19347.06687999999,19347.06687999999,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Luo et al. [38],luo2026constant,256,19153.384060000015,19152.624480000017,19347.06687999999,19347.06687999999,Zq,single,T_eval_Zq + T_sample + T_hash,T_eval_Zq + T_hash
+Proposed scheme,ours,256,1455.858300000008,1455.0987200000081,1649.5411199999808,412.3852799999952,Rq,multi,T_eval_Rq + T_sample + T_hash,T_eval_Rq + T_hash

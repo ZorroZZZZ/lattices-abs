@@ -1,0 +1,11 @@
+
+其中，$T^{\mathbb{Z}_q}_{eval}(f)$ 表示在 $\mathbb{Z}_q$ 上执行访问策略求值或同态求值的主导开销，
+$T^{R_q}_{eval}(f)$ 表示在多项式环 $R_q$ 上执行访问策略求值的主导开销。
+若访问结构规模与属性数量线性相关，则有
+$T^{\mathbb{Z}_q}_{eval}(f)=O(N_{\mathrm{attr}}T^{\mathbb{Z}_q}_{mul})$，
+而本文方案可利用NTT加速，故有
+$T^{R_q}_{eval}(f)=O(N_{\mathrm{attr}}T^{R_q}_{ntt})$。
+$T_{PRF}(\ell)$ 表示无界属性方案中随属性长度增长的PRF矩阵生成相关开销，
+$T_{part}$ 表示partitioning函数及其兼容算法相关开销，
+$T_{proxy}$ 表示代理重签名结构相关开销，
+$T_{rev}$ 与 $T_{cmp}$ 分别表示撤销和比较功能带来的额外开销。

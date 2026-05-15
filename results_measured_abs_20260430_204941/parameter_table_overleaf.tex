@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\caption{128-bit安全目标下的对比实验参数设置}{Parameters for comparison experiments under 128-bit security target}
+\label{tab:params_compare}
+\tabulinesep=1.2mm
+\begin{tabu}to \linewidth{X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]}
+\tabucline[0.08em]-
+\textbf{方案} & \textbf{计算域} & \textbf{模数$q$} & \textbf{维度设置} & \textbf{签名尺寸} & \textbf{授权模式} \\
+\tabucline-
+Luo et al. [32] & $Zq$ & $8380417$ & $N=1024$ & $O(N_{\mathrm{attr}})$ & single \\
+Luo et al. [35] & $Zq$ & $8380417$ & $N=1024$ & $O(N_{\mathrm{attr}})$ & single \\
+Liu et al. [39] & $Zq$ & $8380417$ & $N=1024$ & $O(N_{\mathrm{attr}})$ & single \\
+Kong et al. [40] & $Zq$ & $8380417$ & $N=1024$ & $O(1)$ & single \\
+Luo et al. [38] & $Zq$ & $8380417$ & $N=1024$ & $O(1)$ & single \\
+Proposed scheme & $Rq$ & $8380417$ & $R_q=\mathbb{Z}_q[X]/(X^{256}+1)$ & $O(1)$ & multi \\
+\tabucline[0.08em]-
+\end{tabu}
+\end{table}

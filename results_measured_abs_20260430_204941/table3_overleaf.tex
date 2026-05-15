@@ -1,0 +1,45 @@
+\begin{table}
+	\centering
+	\caption{核心后量子格基属性签名方案签名与验证开销对比}{Comparison of Signing and Verification Costs}
+	\label{tab:cost_compare}
+	\tabulinesep=1.5mm
+	\begin{tabu}to \linewidth{X[c,m]X[c,m]X[c,m]X[c,m]}
+		\tabucline[0.08em]-
+		\textbf{方案} & \textbf{签名生成开销} & \textbf{签名验证开销} & \textbf{签名尺寸} \\
+		\tabucline-
+
+		Luo等\cite{luo2021abs}
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{proxy}+T_{sample}+T_{hash}$
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{proxy}+T_{hash}$
+		& $O(\ell)$ \\
+
+		Luo等\cite{luo2022unbounded}
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{PRF}(\ell)+T_{part}+T_{sample}+T_{hash}$
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{PRF}(\ell)+T_{part}+T_{hash}$
+		& $O(\ell\cdot \mathrm{poly}(n))$ \\
+
+		Liu等\cite{liu2024revocable}
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{rev}+T_{sample}+T_{hash}$
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{cmp}+T_{hash}$
+		& $O(\ell)$ \\
+
+		Kong等\cite{kong2024flexible}
+		& $T^{\mathbb{Z}_q}_{eval}(f)+O(1)T_{sample}+T_{hash}$
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{hash}$
+		& $O(1)$ \\
+
+		Luo等\cite{luo2026constant}
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{sample}+T_{hash}$
+		& $T^{\mathbb{Z}_q}_{eval}(f)+T_{hash}$
+		& \textbf{$O(1)$} \\
+
+		\midrule
+
+		本文方案
+		& $T^{R_q}_{eval}(f)+T_{sample}+T_{hash}$
+		& $T^{R_q}_{eval}(f)+T_{hash}$
+		& \textbf{$O(1)$} \\
+
+		\tabucline[0.08em]-
+	\end{tabu}
+\end{table}
