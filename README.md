@@ -6,7 +6,7 @@ This repository is associated with the manuscript:
 
 - Journal: Electronics
 - Manuscript ID: electronics-4597245
-- 
+  
 ## Materials for the revised manuscript
 
 The revised manuscript dated 9 October 2026 is supported by:
