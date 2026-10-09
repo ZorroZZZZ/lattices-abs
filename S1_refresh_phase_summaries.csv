@@ -1,0 +1,323 @@
+﻿batch,case_id,witness_size,participating_authorities,phase,phase_boundary,independent_processes,measured_per_process,median_of_process_medians_ms,min_process_median_ms,max_process_median_ms,bootstrap95_low_ms,bootstrap95_high_ms,bootstrap_resamples
+scaling,XD_K01,1,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,15.1049,13.764,16.64,14.479,15.4506,10000
+scaling,XD_K01,1,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,4.5097000000000005,3.9842,5.2744,4.0245,4.712149999999999,10000
+scaling,XD_K01,1,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,35.3292,34.08,38.457,34.82755,37.72,10000
+scaling,XD_K01,1,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,15.3467,13.9607,17.221,14.91775,16.00435,10000
+scaling,XD_K01,1,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,0.4944,0.406,0.8042,0.434,0.5955,10000
+scaling,XD_K01,1,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,36.07135,33.3776,37.9681,34.3643,37.0244,10000
+scaling,XD_K02,2,2,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,18.417,16.989,20.4176,17.86725,18.7773,10000
+scaling,XD_K02,2,2,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,8.65555,7.4254,9.7468,7.6461,9.1373,10000
+scaling,XD_K02,2,2,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,36.3728,34.3739,37.3224,35.6515,37.017,10000
+scaling,XD_K02,2,2,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,18.45975,17.3763,20.0921,17.91545,19.1522,10000
+scaling,XD_K02,2,2,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,0.93255,0.7857,1.31,0.8691500000000001,1.074,10000
+scaling,XD_K02,2,2,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,37.057050000000004,36.149,39.4759,36.2435,38.0105,10000
+scaling,XD_K04,4,4,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,26.2706,24.2555,28.99,25.1046,27.153100000000002,10000
+scaling,XD_K04,4,4,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,15.814150000000001,14.3075,17.4528,15.41505,16.3501,10000
+scaling,XD_K04,4,4,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,40.30035,37.3529,42.6208,38.85785,41.4964,10000
+scaling,XD_K04,4,4,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,25.3136,25.0329,28.3532,25.1438,26.660249999999998,10000
+scaling,XD_K04,4,4,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,1.77085,1.4331,2.382,1.6366,2.1434,10000
+scaling,XD_K04,4,4,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,39.4522,37.6065,40.3901,38.6918,40.0405,10000
+scaling,XD_K08,8,8,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,41.6398,38.9825,43.3374,40.8207,43.01235,10000
+scaling,XD_K08,8,8,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,30.3157,29.1673,34.5892,29.4138,33.5851,10000
+scaling,XD_K08,8,8,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,44.24525,40.6232,47.1368,42.39205,45.78195,10000
+scaling,XD_K08,8,8,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,41.23585,38.6579,42.738,40.2358,42.4601,10000
+scaling,XD_K08,8,8,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,3.7601,3.2029,4.3368,3.4703,4.0037,10000
+scaling,XD_K08,8,8,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,43.10155,40.5682,46.2962,42.3275,44.2964,10000
+scaling,XD_K16,16,16,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,69.6298,67.7375,76.8689,68.70240000000001,71.5453,10000
+scaling,XD_K16,16,16,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,57.8818,55.9597,73.8668,56.51365,63.42715,10000
+scaling,XD_K16,16,16,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,48.22525,46.9764,55.3755,47.41595,50.58985,10000
+scaling,XD_K16,16,16,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,75.263,67.634,89.2548,69.4291,79.217,10000
+scaling,XD_K16,16,16,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,6.9473,6.0657,8.2437,6.4524,7.72595,10000
+scaling,XD_K16,16,16,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,49.5069,47.6313,56.0454,48.1747,51.1719,10000
+scaling,XD_K32,32,32,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,129.83715,127.4967,144.4867,129.02335,131.34945,10000
+scaling,XD_K32,32,32,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,110.70214999999999,105.7162,113.4017,107.878,113.0295,10000
+scaling,XD_K32,32,32,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,66.19745,63.1691,71.8079,64.9503,66.55815000000001,10000
+scaling,XD_K32,32,32,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,130.71855,124.8828,138.563,129.19574999999998,134.13575,10000
+scaling,XD_K32,32,32,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,13.86755,12.7858,17.6595,13.5548,14.5351,10000
+scaling,XD_K32,32,32,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,64.6118,62.6774,67.3572,63.6637,66.3414,10000
+scaling,XD_K33,33,33,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,135.9753,130.4316,140.3374,133.1682,137.753,10000
+scaling,XD_K33,33,33,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,117.83385,111.5384,125.3686,113.6265,118.76085,10000
+scaling,XD_K33,33,33,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,66.82505,64.1889,72.1789,64.6027,69.3214,10000
+scaling,XD_K33,33,33,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,137.90245,127.0454,148.6438,133.9364,144.0768,10000
+scaling,XD_K33,33,33,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,14.8004,13.4049,17.5002,14.27745,15.9535,10000
+scaling,XD_K33,33,33,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,67.6087,63.9153,72.21,66.2106,70.8492,10000
+scaling,XD_K48,48,48,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,194.7193,184.5999,202.1721,189.04590000000002,199.291,10000
+scaling,XD_K48,48,48,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,167.99365,156.8732,185.1142,162.5722,173.6433,10000
+scaling,XD_K48,48,48,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,80.8198,78.7993,85.2106,79.8859,82.6394,10000
+scaling,XD_K48,48,48,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,193.12015,187.5991,210.2252,189.4155,199.7524,10000
+scaling,XD_K48,48,48,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,21.4434,20.1682,22.6714,20.8581,21.9667,10000
+scaling,XD_K48,48,48,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,80.18084999999999,78.6104,85.6322,79.217,81.87,10000
+scaling,XD_K64,64,64,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,258.9055,250.2626,269.2774,254.177,265.8245,10000
+scaling,XD_K64,64,64,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,225.46679999999998,215.271,238.237,221.4198,234.14794999999998,10000
+scaling,XD_K64,64,64,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,99.70595,95.5933,107.7988,97.1453,101.5475,10000
+scaling,XD_K64,64,64,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,262.88405,252.5636,285.9459,257.3959,279.86575,10000
+scaling,XD_K64,64,64,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,28.483150000000002,26.8931,32.7247,27.6253,29.46345,10000
+scaling,XD_K64,64,64,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,98.06445,95.177,107.9932,96.67775,102.64054999999999,10000
+scaling,SINGLE_K01,1,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,13.7241,13.2642,15.6084,13.358,14.47725,10000
+scaling,SINGLE_K01,1,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,3.4759,3.3375,3.9722,3.3584,3.58645,10000
+scaling,SINGLE_K01,1,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,32.69685,31.4813,37.2395,31.6231,34.2328,10000
+scaling,SINGLE_K01,1,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,13.901900000000001,13.0903,14.6616,13.2617,14.388100000000001,10000
+scaling,SINGLE_K01,1,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,0.3991,0.3362,0.4746,0.37415,0.4661,10000
+scaling,SINGLE_K01,1,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,32.90885,31.5908,34.597,31.815,34.2912,10000
+scaling,SINGLE_K08,8,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,41.29505,40.1406,46.5065,40.60055,42.4795,10000
+scaling,SINGLE_K08,8,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,25.7986,24.8233,26.4991,25.318,26.1514,10000
+scaling,SINGLE_K08,8,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,40.198049999999995,37.5743,41.4916,39.0101,41.06165,10000
+scaling,SINGLE_K08,8,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,41.527950000000004,39.2752,42.2921,39.945899999999995,41.8437,10000
+scaling,SINGLE_K08,8,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,3.71555,2.9356,4.9185,3.4327,4.1928,10000
+scaling,SINGLE_K08,8,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,41.3821,38.7926,43.5062,40.0967,42.1948,10000
+scaling,SINGLE_K16,16,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,70.92885,66.7528,72.5999,69.7965,72.0594,10000
+scaling,SINGLE_K16,16,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,51.243449999999996,48.2793,55.4877,50.11965,53.1283,10000
+scaling,SINGLE_K16,16,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,48.33715,45.7613,60.5372,47.18915,50.9832,10000
+scaling,SINGLE_K16,16,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,71.0572,70.1961,74.3182,70.653,73.0018,10000
+scaling,SINGLE_K16,16,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,7.1506,6.3356,8.4269,6.791399999999999,7.671,10000
+scaling,SINGLE_K16,16,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,48.4402,47.4987,52.2194,47.7904,49.177099999999996,10000
+scaling,SINGLE_K32,32,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,133.17000000000002,126.3878,141.5638,129.4081,138.6319,10000
+scaling,SINGLE_K32,32,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,107.4165,103.3876,118.1266,105.2233,109.2276,10000
+scaling,SINGLE_K32,32,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,65.906,62.3835,70.0002,64.4646,67.852,10000
+scaling,SINGLE_K32,32,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,132.60264999999998,128.2483,148.9219,130.2273,135.7923,10000
+scaling,SINGLE_K32,32,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,14.34495,13.1682,17.6171,13.71415,14.8079,10000
+scaling,SINGLE_K32,32,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,65.13215,62.4174,69.9589,63.0228,66.5197,10000
+scaling,SINGLE_K33,33,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,135.9395,131.4201,149.4161,134.1455,142.9133,10000
+scaling,SINGLE_K33,33,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,110.20230000000001,103.1438,133.6162,106.3753,115.99805,10000
+scaling,SINGLE_K33,33,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,64.74975,62.819,73.9958,63.92795,67.0403,10000
+scaling,SINGLE_K33,33,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,136.23305,133.1957,142.655,134.4964,140.9127,10000
+scaling,SINGLE_K33,33,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,15.16855,13.6236,15.8137,13.918,15.5982,10000
+scaling,SINGLE_K33,33,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,66.8545,64.9652,71.7738,65.86535,68.43495,10000
+scaling,SINGLE_K48,48,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,196.5025,190.3807,214.1821,192.5182,203.27710000000002,10000
+scaling,SINGLE_K48,48,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,161.48534999999998,149.7537,184.7998,158.66145,167.851,10000
+scaling,SINGLE_K48,48,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,81.4993,78.0527,87.0124,80.1451,84.576,10000
+scaling,SINGLE_K48,48,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,195.78904999999997,182.4293,220.8979,191.9105,201.4406,10000
+scaling,SINGLE_K48,48,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,21.22465,19.5514,23.0977,20.41185,22.06975,10000
+scaling,SINGLE_K48,48,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,82.4171,75.7339,88.7474,79.3043,84.604,10000
+scaling,SINGLE_K64,64,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,257.72855,252.2287,283.0823,255.68234999999999,266.1947937499996,10000
+scaling,SINGLE_K64,64,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,217.41244999999998,204.518,233.633,209.1036,222.63920000000002,10000
+scaling,SINGLE_K64,64,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,98.28825,94.3406,103.8708,96.2122,100.7062,10000
+scaling,SINGLE_K64,64,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,259.6341,250.8887,280.8558,255.67965,274.6481,10000
+scaling,SINGLE_K64,64,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,28.41075,27.1303,31.1319,27.5552,29.2495,10000
+scaling,SINGLE_K64,64,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,98.0521,93.7037,106.3717,95.77029999999999,101.9489,10000
+scaling,FW64_J01,64,1,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,262.37260000000003,250.5064,277.7421,256.4609,270.8233,10000
+scaling,FW64_J01,64,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,214.25824999999998,204.817,236.6437,207.5864,229.45305000000002,10000
+scaling,FW64_J01,64,1,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,98.1186,94.6413,104.3374,95.4953,101.83565,10000
+scaling,FW64_J01,64,1,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,261.86955,247.1985,290.9688,255.15555,276.2986,10000
+scaling,FW64_J01,64,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,29.22565,27.7576,32.1931,28.54985,31.1695,10000
+scaling,FW64_J01,64,1,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,99.3715,94.9754,108.6595,97.39394999999999,101.62495,10000
+scaling,FW64_J02,64,2,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,262.36080000000004,254.8746,280.0308,257.39315,271.8976,10000
+scaling,FW64_J02,64,2,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,214.92055,207.6745,243.0458,210.08615,224.26165,10000
+scaling,FW64_J02,64,2,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,99.2561,96.5502,105.7539,97.19351,101.97155000000001,10000
+scaling,FW64_J02,64,2,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,262.54985,255.5011,283.4787,258.33,269.3693,10000
+scaling,FW64_J02,64,2,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,28.6163,26.8125,34.4424,27.4441,31.259549999999997,10000
+scaling,FW64_J02,64,2,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,98.38505,95.7407,104.0315,97.7345,103.2646,10000
+scaling,FW64_J04,64,4,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,271.7881,250.8741,275.9527,262.24495,275.16165,10000
+scaling,FW64_J04,64,4,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,219.8885,205.4441,238.2992,211.7254,230.40404999999998,10000
+scaling,FW64_J04,64,4,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,100.8666,93.0391,107.1273,96.4773,103.9884,10000
+scaling,FW64_J04,64,4,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,262.02905,251.174,280.5266,256.0027,274.0288,10000
+scaling,FW64_J04,64,4,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,29.124299999999998,26.9483,32.8648,27.95335,31.165950000000002,10000
+scaling,FW64_J04,64,4,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,100.53065000000001,96.298,108.2375,98.70305,104.16050000000001,10000
+scaling,FW64_J08,64,8,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,260.43555,250.0243,296.3138,256.41245000000004,278.92485,10000
+scaling,FW64_J08,64,8,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,213.37365,208.5285,235.1265,209.8337,223.1638,10000
+scaling,FW64_J08,64,8,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,97.9217,94.4086,111.9811,96.0041,101.40299999999999,10000
+scaling,FW64_J08,64,8,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,256.52945,251.6166,281.4366,254.5082,272.38964999999996,10000
+scaling,FW64_J08,64,8,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,28.9512,26.5658,30.992,27.346899999999998,30.4249,10000
+scaling,FW64_J08,64,8,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,97.79384999999999,93.5757,103.4465,94.84205,101.3136,10000
+scaling,FW64_J16,64,16,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,261.71765,254.7082,286.7882,259.89845,269.4614,10000
+scaling,FW64_J16,64,16,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,219.33085,212.0615,234.9617,213.9179,224.5226,10000
+scaling,FW64_J16,64,16,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,99.8943,93.9428,102.839,97.3546,102.2688,10000
+scaling,FW64_J16,64,16,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,260.02915,253.7989,278.129,255.2438,270.3014,10000
+scaling,FW64_J16,64,16,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,29.0732,26.5691,32.5633,27.887612500000003,29.9937,10000
+scaling,FW64_J16,64,16,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,97.64515,95.2072,105.3714,96.76079999999999,101.4959,10000
+scaling,FW64_J32,64,32,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,273.8666,253.9767,293.4102,259.44585,281.7785,10000
+scaling,FW64_J32,64,32,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,222.14780000000002,208.8895,239.6295,213.3533,233.29014999999998,10000
+scaling,FW64_J32,64,32,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,100.47955,95.5273,112.1445,98.2043,104.3931,10000
+scaling,FW64_J32,64,32,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,265.14345,248.8039,283.1186,256.6408,272.0921,10000
+scaling,FW64_J32,64,32,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,29.906950000000002,25.346,32.498,28.7798,31.7333,10000
+scaling,FW64_J32,64,32,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,98.24,93.6049,102.9409,96.2216,102.027,10000
+scaling,FW64_J64,64,64,refresh_root_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,266.04089999999997,251.379,278.0045,258.52115000000003,271.62275,10000
+scaling,FW64_J64,64,64,refresh_root_issuer_update,issuer update and canonical refresh-object construction,10,1,231.9672,220.8065,251.7246,225.0522,240.92,10000
+scaling,FW64_J64,64,64,refresh_root_signer_prepare,signer preparation from trusted capabilities,10,1,98.93515,95.2048,101.4865,97.04779875,101.3703,10000
+scaling,FW64_J64,64,64,refresh_status_cache_with_probe,cache provisioning including a complete cold probe verification,10,1,263.34515,252.1143,276.4933,255.4969,270.8384,10000
+scaling,FW64_J64,64,64,refresh_status_issuer_update,issuer update and canonical refresh-object construction,10,1,29.00145,27.8391,31.188,28.36175,29.91695,10000
+scaling,FW64_J64,64,64,refresh_status_signer_prepare,signer preparation from trusted capabilities,10,1,99.53524999999999,97.2849,103.9143,98.8279,101.93700000000001,10000
+cold,FW64_J01,64,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,314.7655,304.0714,710.5993,304.0714,710.5993,5000
+cold,FW64_J01,64,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,371.7601,363.2807,789.4212,363.2807,789.4212,5000
+cold,FW64_J01,64,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,216.605,208.9052,361.3137,208.9052,361.3137,5000
+cold,FW64_J01,64,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,178.2265,174.3435,295.5861,174.3435,295.5861,5000
+cold,FW64_J01,64,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,312.7734,305.2047,619.2026,305.2047,619.2026,5000
+cold,FW64_J01,64,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,369.6191,361.8182,747.4198,361.8182,747.4198,5000
+cold,FW64_J01,64,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,29.3326,27.5344,53.5251,27.5344,53.5251,5000
+cold,FW64_J01,64,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,175.9065,171.2496,289.0324,171.2496,289.0324,5000
+cold,FW64_J02,64,2,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,318.767,306.997,516.8068,306.997,516.8068,5000
+cold,FW64_J02,64,2,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,377.488,364.7133,622.133,364.7133,622.133,5000
+cold,FW64_J02,64,2,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,214.0427,207.746,354.7269,207.746,354.7269,5000
+cold,FW64_J02,64,2,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,177.0648,171.7697,291.3022,171.7697,291.3022,5000
+cold,FW64_J02,64,2,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,308.2991,303.5007,600.4402,303.5007,600.4402,5000
+cold,FW64_J02,64,2,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,365.3508,362.5626,742.4273,362.5626,742.4273,5000
+cold,FW64_J02,64,2,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,28.5463,28.115,78.1577,28.115,78.1577,5000
+cold,FW64_J02,64,2,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,176.1385,171.7852,346.9583,171.7852,346.9583,5000
+cold,FW64_J04,64,4,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,319.0987,303.4363,670.7174,303.4363,670.7174,5000
+cold,FW64_J04,64,4,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,376.6913,362.7925,778.795,362.7925,778.795,5000
+cold,FW64_J04,64,4,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,215.5435,207.5587,391.5918,207.5587,391.5918,5000
+cold,FW64_J04,64,4,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,184.8252,169.8335,430.3706,169.8335,430.3706,5000
+cold,FW64_J04,64,4,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,307.2586,305.8791,476.5713,305.8791,476.5713,5000
+cold,FW64_J04,64,4,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,367.5689,361.3531,569.9234,361.3531,569.9234,5000
+cold,FW64_J04,64,4,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,30.4014,28.8384,41.6932,28.8384,41.6932,5000
+cold,FW64_J04,64,4,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,171.5608,168.0956,263.9828,168.0956,263.9828,5000
+cold,FW64_J08,64,8,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,335.1726,316.8915,522.3884,316.8915,522.3884,5000
+cold,FW64_J08,64,8,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,399.1876,377.8589,636.8823,377.8589,636.8823,5000
+cold,FW64_J08,64,8,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,237.1405,222.5424,370.5958,222.5424,370.5958,5000
+cold,FW64_J08,64,8,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,192.2723,182.7682,300.1439,182.7682,300.1439,5000
+cold,FW64_J08,64,8,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,311.8021,309.4955,485.0557,309.4955,485.0557,5000
+cold,FW64_J08,64,8,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,370.698,365.1306,576.2645,365.1306,576.2645,5000
+cold,FW64_J08,64,8,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,30.4246,27.0994,40.3004,27.0994,40.3004,5000
+cold,FW64_J08,64,8,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,178.0054,175.2945,256.2951,175.2945,256.2951,5000
+cold,FW64_J16,64,16,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,320.2624,302.5284,673.7879,302.5284,673.7879,5000
+cold,FW64_J16,64,16,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,375.234,359.8779,811.2195,359.8779,811.2195,5000
+cold,FW64_J16,64,16,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,219.6087,213.9063,399.3644,213.9063,399.3644,5000
+cold,FW64_J16,64,16,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,183.3574,174.0579,307.7996,174.0579,307.7996,5000
+cold,FW64_J16,64,16,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,316.5819,305.7717,687.4386,305.7717,687.4386,5000
+cold,FW64_J16,64,16,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,376.261,360.4571,807.9272,360.4571,807.9272,5000
+cold,FW64_J16,64,16,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,29.4222,28.3264,50.8298,28.3264,50.8298,5000
+cold,FW64_J16,64,16,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,181.213,171.9283,323.0045,171.9283,323.0045,5000
+cold,FW64_J32,64,32,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,323.2841,303.1263,579.0888,303.1263,579.0888,5000
+cold,FW64_J32,64,32,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,382.4299,358.5732,683.5453,358.5732,683.5453,5000
+cold,FW64_J32,64,32,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,229.2652,215.491,396.1151,215.491,396.1151,5000
+cold,FW64_J32,64,32,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,184.1061,174.5824,310.7622,174.5824,310.7622,5000
+cold,FW64_J32,64,32,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,322.2008,306.0634,570.0501,306.0634,570.0501,5000
+cold,FW64_J32,64,32,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,379.6746,364.1571,666.0845,364.1571,666.0845,5000
+cold,FW64_J32,64,32,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,32.311,29.1437,56.8011,29.1437,56.8011,5000
+cold,FW64_J32,64,32,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,182.4273,176.0416,318.239,176.0416,318.239,5000
+cold,FW64_J64,64,64,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,314.5207,310.2047,569.5046,310.2047,569.5046,5000
+cold,FW64_J64,64,64,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,371.7807,366.7072,672.8319,366.7072,672.8319,5000
+cold,FW64_J64,64,64,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,230.2113,224.8808,468.6166,224.8808,468.6166,5000
+cold,FW64_J64,64,64,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,179.8245,175.4438,309.4925,175.4438,309.4925,5000
+cold,FW64_J64,64,64,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,349.7261,312.1024,531.7331,312.1024,531.7331,5000
+cold,FW64_J64,64,64,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,412.7653,369.8299,667.9308,369.8299,667.9308,5000
+cold,FW64_J64,64,64,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,33.3332,31.1594,46.9359,31.1594,46.9359,5000
+cold,FW64_J64,64,64,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,185.6952,176.5748,303.0228,176.5748,303.0228,5000
+cold,SINGLE_K01,1,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,55.5299,52.3886,141.3858,52.3886,141.3858,5000
+cold,SINGLE_K01,1,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,114.7102,104.5464,276.3341,104.5464,276.3341,5000
+cold,SINGLE_K01,1,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,3.3862,3.1218,9.4012,3.1218,9.4012,5000
+cold,SINGLE_K01,1,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,4.8446,4.4903,13.0715,4.4903,13.0715,5000
+cold,SINGLE_K01,1,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,63.0238,53.0397,132.39,53.0397,132.39,5000
+cold,SINGLE_K01,1,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,119.9219,108.4733,250.6257,108.4733,250.6257,5000
+cold,SINGLE_K01,1,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,0.4528,0.3696,1.1513,0.3696,1.1513,5000
+cold,SINGLE_K01,1,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,5.4692,4.4437,11.6801,4.4437,11.6801,5000
+cold,SINGLE_K08,8,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,81.2497,80.6983,177.9649,80.6983,177.9649,5000
+cold,SINGLE_K08,8,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,138.555,138.1723,283.8418,138.1723,283.8418,5000
+cold,SINGLE_K08,8,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,24.5233,23.7965,59.4824,23.7965,59.4824,5000
+cold,SINGLE_K08,8,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,22.9045,22.5054,50.544,22.5054,50.544,5000
+cold,SINGLE_K08,8,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,82.3567,81.5983,218.7721,81.5983,218.7721,5000
+cold,SINGLE_K08,8,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,142.0234,137.693,364.784,137.693,364.784,5000
+cold,SINGLE_K08,8,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,3.7945,3.4945,9.3186,3.4945,9.3186,5000
+cold,SINGLE_K08,8,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,23.0066,22.4674,56.9026,22.4674,56.9026,5000
+cold,SINGLE_K16,16,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,116.6122,110.7631,230.8307,110.7631,230.8307,5000
+cold,SINGLE_K16,16,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,172.0299,166.3923,412.8028,166.3923,412.8028,5000
+cold,SINGLE_K16,16,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,51.6918,45.749,118.3962,45.749,118.3962,5000
+cold,SINGLE_K16,16,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,44.1437,41.9424,121.1093,41.9424,121.1093,5000
+cold,SINGLE_K16,16,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,114.566,109.6882,288.9241,109.6882,288.9241,5000
+cold,SINGLE_K16,16,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,170.4987,167.4231,454.737,167.4231,454.737,5000
+cold,SINGLE_K16,16,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,8.4297,6.3605,11.043,6.3605,11.043,5000
+cold,SINGLE_K16,16,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,44.847,43.5631,113.3237,43.5631,113.3237,5000
+cold,SINGLE_K32,32,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,178.7291,175.3461,441.4629,175.3461,441.4629,5000
+cold,SINGLE_K32,32,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,236.2024,229.9381,572.9177,229.9381,572.9177,5000
+cold,SINGLE_K32,32,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,102.9562,97.3202,241.3831,97.3202,241.3831,5000
+cold,SINGLE_K32,32,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,85.7509,82.0155,213.0386,82.0155,213.0386,5000
+cold,SINGLE_K32,32,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,181.7457,173.9774,388.0817,173.9774,388.0817,5000
+cold,SINGLE_K32,32,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,240.405,230.763,542.5205,230.763,542.5205,5000
+cold,SINGLE_K32,32,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,14.368,14.212,35.8066,14.212,35.8066,5000
+cold,SINGLE_K32,32,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,85.6661,83.8369,183.0254,83.8369,183.0254,5000
+cold,SINGLE_K33,33,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,186.3371,178.9096,463.195,178.9096,463.195,5000
+cold,SINGLE_K33,33,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,245.0943,234.8756,651.9412,234.8756,651.9412,5000
+cold,SINGLE_K33,33,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,105.7589,101.7204,267.8024,101.7204,267.8024,5000
+cold,SINGLE_K33,33,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,91.0756,86.3524,221.2121,86.3524,221.2121,5000
+cold,SINGLE_K33,33,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,189.1836,180.5116,388.3923,180.5116,388.3923,5000
+cold,SINGLE_K33,33,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,245.8257,236.1462,507.7871,236.1462,507.7871,5000
+cold,SINGLE_K33,33,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,14.8628,13.5388,24.4743,13.5388,24.4743,5000
+cold,SINGLE_K33,33,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,91.8885,87.3957,177.1514,87.3957,177.1514,5000
+cold,SINGLE_K48,48,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,248.5831,240.245,423.8586,240.245,423.8586,5000
+cold,SINGLE_K48,48,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,305.6479,295.8368,529.2155,295.8368,529.2155,5000
+cold,SINGLE_K48,48,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,155.2721,154.4069,316.9644,154.4069,316.9644,5000
+cold,SINGLE_K48,48,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,130.5141,127.0043,290.6787,127.0043,290.6787,5000
+cold,SINGLE_K48,48,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,250.0243,242.3772,553.3696,242.3772,553.3696,5000
+cold,SINGLE_K48,48,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,307.8891,297.2298,691.1984,297.2298,691.1984,5000
+cold,SINGLE_K48,48,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,21.8491,21.0397,32.578,21.0397,32.578,5000
+cold,SINGLE_K48,48,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,130.5126,129.3777,271.3107,129.3777,271.3107,5000
+cold,SINGLE_K64,64,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,314.345,302.8816,677.7948,302.8816,677.7948,5000
+cold,SINGLE_K64,64,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,371.9541,358.8486,810.8132,358.8486,810.8132,5000
+cold,SINGLE_K64,64,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,214.5133,209.1317,413.72,209.1317,413.72,5000
+cold,SINGLE_K64,64,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,177.5621,168.686,394.2254,168.686,394.2254,5000
+cold,SINGLE_K64,64,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,310.8228,302.3496,614.8216,302.3496,614.8216,5000
+cold,SINGLE_K64,64,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,369.0258,358.7972,729.217,358.7972,729.217,5000
+cold,SINGLE_K64,64,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,31.3617,28.3667,54.2902,28.3667,54.2902,5000
+cold,SINGLE_K64,64,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,176.9767,167.9426,391.6908,167.9426,391.6908,5000
+cold,XD_K01,1,1,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,93.8094,53.8299,152.1689,53.8299,152.1689,5000
+cold,XD_K01,1,1,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,201.4742,109.0139,319.3521,109.0139,319.3521,5000
+cold,XD_K01,1,1,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,6.9787,4.6063,12.5954,4.6063,12.5954,5000
+cold,XD_K01,1,1,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,8.7541,5.3482,15.0413,5.3482,15.0413,5000
+cold,XD_K01,1,1,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,87.1064,55.9433,123.3995,55.9433,123.3995,5000
+cold,XD_K01,1,1,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,196.4968,110.1596,246.3494,110.1596,246.3494,5000
+cold,XD_K01,1,1,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,0.7568,0.5304,0.856,0.5304,0.856,5000
+cold,XD_K01,1,1,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,7.3354,5.5248,10.8525,5.5248,10.8525,5000
+cold,XD_K02,2,2,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,61.315,57.2439,139.3013,57.2439,139.3013,5000
+cold,XD_K02,2,2,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,118.5059,111.048,277.3832,111.048,277.3832,5000
+cold,XD_K02,2,2,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,7.7973,7.6303,13.8968,7.6303,13.8968,5000
+cold,XD_K02,2,2,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,8.1492,7.9264,18.9456,7.9264,18.9456,5000
+cold,XD_K02,2,2,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,64.4472,62.1263,127.8467,62.1263,127.8467,5000
+cold,XD_K02,2,2,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,127.5988,116.3587,239.4087,116.3587,239.4087,5000
+cold,XD_K02,2,2,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,1.1215,0.8189,2.1329,0.8189,2.1329,5000
+cold,XD_K02,2,2,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,8.2539,7.9325,15.0884,7.9325,15.0884,5000
+cold,XD_K04,4,4,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,79.0938,66.1532,151.7208,66.1532,151.7208,5000
+cold,XD_K04,4,4,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,142.0652,123.0461,287.1268,123.0461,287.1268,5000
+cold,XD_K04,4,4,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,17.7488,15.1,35.0109,15.1,35.0109,5000
+cold,XD_K04,4,4,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,14.5696,12.5906,27.4705,12.5906,27.4705,5000
+cold,XD_K04,4,4,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,71.3056,65.5559,122.6665,65.5559,122.6665,5000
+cold,XD_K04,4,4,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,131.127,121.3972,223.2588,121.3972,223.2588,5000
+cold,XD_K04,4,4,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,2.21,1.7483,2.6976,1.7483,2.6976,5000
+cold,XD_K04,4,4,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,13.7616,12.1897,22.0985,12.1897,22.0985,5000
+cold,XD_K08,8,8,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,84.2377,83.2693,209.1249,83.2693,209.1249,5000
+cold,XD_K08,8,8,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,142.0931,139.6979,338.0128,139.6979,338.0128,5000
+cold,XD_K08,8,8,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,30.7588,27.4355,67.1613,27.4355,67.1613,5000
+cold,XD_K08,8,8,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,23.7782,22.0904,52.6448,22.0904,52.6448,5000
+cold,XD_K08,8,8,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,85.1059,82.283,185.8823,82.283,185.8823,5000
+cold,XD_K08,8,8,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,140.0353,138.0394,318.8135,138.0394,318.8135,5000
+cold,XD_K08,8,8,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,3.4836,3.2723,8.8575,3.2723,8.8575,5000
+cold,XD_K08,8,8,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,23.3103,21.8572,60.1324,21.8572,60.1324,5000
+cold,XD_K16,16,16,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,116.6415,111.4036,249.4734,111.4036,249.4734,5000
+cold,XD_K16,16,16,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,175.8758,166.8658,372.0925,166.8658,372.0925,5000
+cold,XD_K16,16,16,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,55.9366,54.629,144.5873,54.629,144.5873,5000
+cold,XD_K16,16,16,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,45.5003,43.1891,95.0831,43.1891,95.0831,5000
+cold,XD_K16,16,16,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,119.3149,109.7896,299.8697,109.7896,299.8697,5000
+cold,XD_K16,16,16,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,174.8149,163.0655,439.3185,163.0655,439.3185,5000
+cold,XD_K16,16,16,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,7.6541,6.6571,17.5022,6.6571,17.5022,5000
+cold,XD_K16,16,16,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,43.9147,41.5984,110.5265,41.5984,110.5265,5000
+cold,XD_K32,32,32,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,177.5121,174.6803,444.2311,174.6803,444.2311,5000
+cold,XD_K32,32,32,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,236.1107,232.4432,589.3496,232.4432,589.3496,5000
+cold,XD_K32,32,32,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,123.8828,109.435,263.4598,109.435,263.4598,5000
+cold,XD_K32,32,32,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,86.8733,85.0658,208.0043,85.0658,208.0043,5000
+cold,XD_K32,32,32,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,187.0333,172.8013,443.2282,172.8013,443.2282,5000
+cold,XD_K32,32,32,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,248.6269,234.8894,556.0142,234.8894,556.0142,5000
+cold,XD_K32,32,32,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,14.8512,13.5424,35.1983,13.5424,35.1983,5000
+cold,XD_K32,32,32,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,85.9732,83.8844,201.8545,83.8844,201.8545,5000
+cold,XD_K33,33,33,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,186.8321,178.1811,476.5618,178.1811,476.5618,5000
+cold,XD_K33,33,33,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,248.1901,235.3195,632.5904,235.3195,632.5904,5000
+cold,XD_K33,33,33,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,116.7299,110.9456,307.8492,110.9456,307.8492,5000
+cold,XD_K33,33,33,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,93.8004,86.3181,232.0955,86.3181,232.0955,5000
+cold,XD_K33,33,33,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,189.4001,179.8659,445.6325,179.8659,445.6325,5000
+cold,XD_K33,33,33,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,247.403,237.3685,586.7868,237.3685,586.7868,5000
+cold,XD_K33,33,33,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,15.3495,14.9893,34.4994,14.9893,34.4994,5000
+cold,XD_K33,33,33,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,89.2549,86.4138,184.9399,86.4138,184.9399,5000
+cold,XD_K48,48,48,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,250.2341,243.4607,502.3287,243.4607,502.3287,5000
+cold,XD_K48,48,48,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,310.1593,301.4449,631.9873,301.4449,631.9873,5000
+cold,XD_K48,48,48,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,175.4362,169.9859,420.2492,169.9859,420.2492,5000
+cold,XD_K48,48,48,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,133.1879,129.9351,339.1434,129.9351,339.1434,5000
+cold,XD_K48,48,48,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,249.2733,237.819,620.3859,237.819,620.3859,5000
+cold,XD_K48,48,48,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,306.3911,293.9021,768.6752,293.9021,768.6752,5000
+cold,XD_K48,48,48,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,23.1865,20.4655,52.0984,20.4655,52.0984,5000
+cold,XD_K48,48,48,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,133.4343,124.5482,303.7522,124.5482,303.7522,5000
+cold,XD_K64,64,64,refresh_root_cold_signer_prepare,authenticated local cold signer preparation,5,3,307.7979,307.4625,568.0141,307.4625,568.0141,5000
+cold,XD_K64,64,64,refresh_root_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,366.5997,362.9202,680.5961,362.9202,680.5961,5000
+cold,XD_K64,64,64,refresh_root_issuer_update,issuer update and canonical refresh-object construction,5,3,250.5381,222.7071,399.7703,222.7071,399.7703,5000
+cold,XD_K64,64,64,refresh_root_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,175.5343,169.733,319.547,169.733,319.547,5000
+cold,XD_K64,64,64,refresh_status_cold_signer_prepare,authenticated local cold signer preparation,5,3,311.5347,310.9322,586.9643,310.9322,586.9643,5000
+cold,XD_K64,64,64,refresh_status_cold_signer_total,authenticated local cold preparation plus fresh signing,5,3,369.3398,366.2804,691.0322,366.2804,691.0322,5000
+cold,XD_K64,64,64,refresh_status_issuer_update,issuer update and canonical refresh-object construction,5,3,30.6303,29.3597,41.4451,29.3597,41.4451,5000
+cold,XD_K64,64,64,refresh_status_verifier_prepare_pure,direct authenticated verifier preparation without probe token,5,3,174.1382,173.4999,301.2445,173.4999,301.2445,5000
